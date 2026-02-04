@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    background:linear-gradient(135deg,#1a2332 , #334255);
+
+    
+}
+.signupform{
+    width: 350px;
+    background-color: aliceblue;
+    padding: 25px 35px;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+label{
+    display: block;
+    text-transform: capitalize;
+    margin-left: 10px;
+    
+
+}
+input{
+    
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+}
+input[type="submit"]{
+    background-color: rgb(51, 81, 216);
+    color: white;
+}
+p{
+    text-align: center;
+    text-transform:capitalize ;
+}
+p a{
+    text-decoration: none;
+    color:rgb(51, 81, 216) ;
+}
+input::placeholder{
+    text-transform: capitalize;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    
+}
